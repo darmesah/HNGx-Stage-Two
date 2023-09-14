@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const express_validator_1 = require("express-validator");
+const user_1 = require("../controllers/user");
+const router = (0, express_1.Router)();
+router.post("/", [(0, express_validator_1.body)("name").isString().withMessage("Name is not a string").trim()], user_1.createUser);
+router.get("/:id", user_1.getUser);
+router.patch("/:id", [(0, express_validator_1.body)("name").isString().withMessage("Name is not a string").trim()], user_1.updateUser);
+router.delete("/:id", user_1.deleteUser);
+exports.default = router;

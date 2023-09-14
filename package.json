@@ -1,0 +1,23 @@
+{
+  "name": "hngx---stage-two",
+  "version": "1.0.0",
+  "description": "HNGx stage two project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon dist/app.js",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "Damisa Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.4.3"
+  }
+}
