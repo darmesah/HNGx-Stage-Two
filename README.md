@@ -1,5 +1,6 @@
 UML Diagram Link: https://drive.google.com/file/d/1Mep71l5rpmJZJvWLdMtfE1PVNat-RSTT/view
-Postman Testing and Documentation Link:
+
+Postman Testing and Documentation Link: https://www.postman.com/darmesah/workspace/damisa-alex-hngx-stage-2/collection/20359986-638c36d6-150d-4c64-b1bd-913d260ebd77
 
 Tools used in this project:
 
